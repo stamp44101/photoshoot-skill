@@ -39,6 +39,7 @@ Rewrite the options of each Variable on the Board to match what the photos show,
 Give each image one option from each Variable on its Board: Location, Light, Palette, Camera, Pose.
 
 - Use each option about as often as the others.
+- Spread the Locations across their groups first (Hotel, Suite, Pool and so on): no group comes up twice in a run until every group on the Board has come up once. Inside a group, pick the place used least so far.
 - Never give two images the same mix.
 - Never mix options that cannot happen together, like indoor daylight on a beach.
 - In a short skirt or dress, never mix Sitting or Low with a low camera looking up.
@@ -72,7 +73,7 @@ When an image is blocked by the safety filter:
 
 ### 6. Check every image
 
-Open each image next to Front-Full. Make it again when any of these is true.
+Open each image next to Front-Full, and crop her face next to the close-up on her sheet. A small preview hides face drift. Make it again when any of these is true.
 
 - The garment is not the garment: its neckline, trim, length, colour or fabric changed.
 - Her face or hair is not the Character's.
@@ -80,6 +81,7 @@ Open each image next to Front-Full. Make it again when any of these is true.
 - The frame is sideways.
 - It does not show its Camera and Pose.
 - Someone near her can be recognized, or shares her face.
+- A prop carries a real brand's logo.
 
 Make an image again at most twice. Then leave the row's Preview blank and say why in chat.
 
@@ -96,6 +98,7 @@ Add the rows to the PHOTOSHOOT tab. Put each value under the column with the sam
 | Location, Light, Palette, Camera, Pose | The option picked for each |
 | Prompt | The prompt from step 4 |
 | Preview | The image, shown in the cell from its Higgs image URL: `=IMAGE("<url>")` |
+| QA | Pass, Borderline or Fail, with the reason and how many times it was made again |
 
 When step 1 ran, also give the new options in chat, in the same shape as the ones in Project Inputs.
 
@@ -132,7 +135,7 @@ When the PHOTOSHOOT tab has rows, read this section before the workflow.
 **Camera**
 
 - Eye level — mid-distance
-- Low — looking up
+- Low — the camera near the floor, looking up at her
 - Close — close in
 
 **Pose**
@@ -140,7 +143,7 @@ When the PHOTOSHOOT tab has rows, read this section before the workflow.
 - Standing
 - Leaning
 - Sitting
-- Low
+- Low — crouched, kneeling or sitting close to the ground
 
 ### Variables — Lifestyle High-Fashion
 
@@ -260,6 +263,7 @@ No over-smoothed skin, no distorted proportions.
 No exaggerated filter or grade.
 No one close enough to be recognized. No one else shares her face or hair.
 No sideways or rotated frame.
+No logos or brand marks on props.
 </Don't>
 
 <Output>
@@ -354,3 +358,22 @@ Left out:
 B1 was picked. Not tested yet: a back-view shot, a third garment, and a run with Inspiration.
 
 A single front shot (the garment's Element in Higgs) gave the same garment as the five shots on two front-facing images. Back views were not tried with it.
+
+### Run1 — first full batch
+
+2026-11-16. Peony Valen Maxi Dress × Kristy, Casual, 10 images plus 3 remakes: 13 images, 35.75 credits. None blocked, none sideways. The garment held in all 13.
+
+| | Count | Rows |
+|---|---|---|
+| Pass on the first try | 4 of 10 | 001, 002, 003, 007 |
+| Borderline on the first try (face a little off) | 2 of 10 | 005, 008 |
+| Fail on the first try | 4 of 10 | 004 face, 006 pose, 009 brand logo, 010 pose |
+| Pass after one remake | 2 | 006, 010 |
+| Borderline after one remake | 1 | 009 |
+| Still to remake | 1 | 004 |
+
+What it changed in this file:
+
+- **Pose "Low" and Camera "Low" were read as nothing.** 006 and 010 came back standing. The options now say what they are. The Pose fix worked on both remakes. The Camera fix did not: 010 is still not shot from low, and 007 never was.
+- **A bag came back with a real brand's logo** (009). "No logos or brand marks on props." is now in `<Don't>`, and it held on the remake.
+- **Faces drift most on Close and Low cameras in hard sun or after dark** (004, 005, 008, 009). Not fixed yet. To try next: add the close-up face panel of her sheet as a second Character reference, the fix that worked in RETOUCH.
