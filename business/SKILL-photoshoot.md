@@ -396,3 +396,20 @@ What it changed in this file:
 - Ten images are too few to call this a yield. The next runs measure it on 80.
 
 Kristy's and Claire's face close-ups are already uploaded to Higgs.
+
+### Yield study — in progress
+
+Prompt frozen as it stands after Run2. First try only, no remakes. Plan: 80 images over 8 batches (2 Boards × 4 garments). Run2 counts as the first batch.
+
+| Run | Garment × Character | Board | Pass | Borderline | Fail |
+|---|---|---|---|---|---|
+| Run2 | Peony Valen Maxi Dress × Kristy | Casual | 7 | 3 | 0 |
+| Run3 | Cocoa Quinn Midi Dress × Claire | Casual | 8 | 2 | 0 |
+| Run4 | White Julia Mini Dress × Claire | Casual | 4 | 4 | 2 |
+| **So far** | | | **19 of 30** | **9** | **2** |
+
+- None of the 30 was blocked or sideways. The garment held in all 30, and no face failed. Run4's faces were checked at sheet size, not cropped.
+- **The Low camera** is the main borderline reason: it came out at eye level in 4 of 8 tries.
+- **A mini dress with Sitting or Low** is the only reason for a Fail. In Run4, 5 of the 6 rows that sat, knelt or were shot from low came back with the hem riding too high, and in 2 the camera looks up it. The Mix rule only kept short garments away from a low camera. It is not enough.
+
+Still to run: Beige Julia Mini Dress × Kristy on Casual, and all four garments on High-Fashion.
