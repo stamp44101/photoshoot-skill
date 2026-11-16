@@ -46,14 +46,15 @@ Give each image one option from each Variable on its Board: Location, Light, Pal
 
 ### 3. Find the References
 
-Six images, in this order.
+Seven images, in this order.
 
 1. The Character's sheet: the image of her Element in Higgs (`show_reference_elements`).
-2. Front-Full
-3. Front-3-4
-4. 3-4-Side
-5. Back
-6. Close-up
+2. Her face, close up: the top-left panel of her sheet, cropped (x 0 to 29.8%, y 0 to 44.5%) and uploaded to Higgs once. Use the same upload on every run.
+3. Front-Full
+4. Front-3-4
+5. 3-4-Side
+6. Back
+7. Close-up
 
 The five garment shots are already in Higgs as the BG SWAP outputs (`show_generations`, model Nano Banana, five in a row). Look at them to tell the garment and the angle, and pass their job IDs. When they are not there, upload the `_BG` files from the Drive folder SHER RETOUCH SKILL - OUTPUT.
 
@@ -63,7 +64,7 @@ Take the Board's prompt from Project Inputs. Put each option from step 2 on the 
 
 ### 5. Make the images
 
-Send each prompt to Higgs GPT Image 2.6 (Sunburst), at high quality, 2k, 3:4, with the six References. One image per prompt. Tell the person the credit cost before the run.
+Send each prompt to Higgs GPT Image 2.6 (Sunburst), at high quality, 2k, 3:4, with the seven References. One image per prompt. Tell the person the credit cost before the run.
 
 When an image is blocked by the safety filter:
 
@@ -204,12 +205,13 @@ You are a photographer who shoots 'Modern Influencer' fashion content: real and 
 
 <Input>
 Image 1: CHARACTER — Person truth: face, hair and skin
-Image 2: PRODUCT FRONT — Garment truth
-Image 3: PRODUCT FRONT 3/4 — Garment truth
-Image 4: PRODUCT SIDE — Garment truth
-Image 5: PRODUCT BACK — Garment truth
-Image 6: PRODUCT CLOSE-UP — Garment truth
-Never deviate from Garment truths. Take nothing else from Images 2 to 6: not their background, pose or light.
+Image 2: CHARACTER FACE — Person truth: her face, close up
+Image 3: PRODUCT FRONT — Garment truth
+Image 4: PRODUCT FRONT 3/4 — Garment truth
+Image 5: PRODUCT SIDE — Garment truth
+Image 6: PRODUCT BACK — Garment truth
+Image 7: PRODUCT CLOSE-UP — Garment truth
+Never deviate from Garment truths. Take nothing else from Images 3 to 7: not their background, pose or light.
 </Input>
 
 <shot — Location>
@@ -323,7 +325,7 @@ The garment stays fully legible in whatever shape you choose.
 
 - **Location is words, not an image.** `Image 1: LOCATION` is gone. Location, Light and Palette go into the prompt, with the options from the Runbook's step 1.
 - **"Image 1's light" became "This light".** The Light option is the main light.
-- **The Character's sheet is Image 1.** GPT Image cannot take a Soul ID, so she goes in as a reference image.
+- **The Character's sheet is Image 1, and her face close-up is Image 2.** GPT Image cannot take a Soul ID, so she goes in as reference images.
 - **Five garment shots instead of three.** RETOUCH makes five.
 - **Camera and Pose are Variables.** Claude picks one option per image, so each is used about as often as the others. Three lines that let the model choose are gone: "Eye-level and mid-distance, or low looking up, or close in.", "Vary the level and the turn: standing, leaning, sitting, low.", and the High-Fashion "Choose one —" and "Choose freely —" lists. Their options are in Project Inputs.
 - **"a little tilted" is gone**, and "An upright vertical frame." is in.
@@ -376,4 +378,21 @@ What it changed in this file:
 
 - **Pose "Low" and Camera "Low" were read as nothing.** 006 and 010 came back standing. The options now say what they are. The Pose fix worked on both remakes. The Camera fix did not: 010 is still not shot from low, and 007 never was.
 - **A bag came back with a real brand's logo** (009). "No logos or brand marks on props." is now in `<Don't>`, and it held on the remake.
-- **Faces drift most on Close and Low cameras in hard sun or after dark** (004, 005, 008, 009). Not fixed yet. To try next: add the close-up face panel of her sheet as a second Character reference, the fix that worked in RETOUCH.
+- **Faces drift most on Close and Low cameras in hard sun or after dark** (004, 005, 008, 009). Run2 tried the fix that worked in RETOUCH.
+
+### Run2 — the same ten shots, with her face close-up as a second reference
+
+2026-11-16. Same garment, Character, Board and mixes as Run1, with the prompt as it stands after Run1. 10 images, 27.5 credits, no remakes. None blocked, none sideways. The garment held in all 10.
+
+| | Run1, first try | Run2, first try |
+|---|---|---|
+| Pass | 4 | 7 |
+| Borderline | 2 | 3 (003 and 008 face, 010 camera) |
+| Fail | 4 | 0 |
+
+- **The face close-up is now a standard Reference.** The four faces that drifted in Run1 came back as Kristy or close to her. Faces were judged by eye from crops next to her sheet.
+- The Low pose held on both rows, and no logos came back. Those two come from the prompt changes after Run1, not from the face close-up.
+- The Low camera worked on 004 and 007 and not on 010.
+- Ten images are too few to call this a yield. The next runs measure it on 80.
+
+Kristy's and Claire's face close-ups are already uploaded to Higgs.
