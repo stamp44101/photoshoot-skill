@@ -446,3 +446,7 @@ v4 = v3 plus the reworded True profile and Very tight crop options, and no True 
 - No Fail, no block, nothing sideways. The garment held in all 30.
 - What is left: face drift in 4 of 30 (the face comes out older or heavier, mostly in close or sunset shots), and the Casual Low camera missed once in 3.
 - Cost: 2.75 credits an image, so about 3.3 credits per first-try Pass.
+
+### Full set on v4 (2026-11-19)
+
+All five garments on both Boards. The 50 new images (Run12–16) gave 47 Pass (94%), 3 Borderline (face drift), 0 Fail. Output is in Drive, folder "SHER PHOTOSHOOT SKILL - OUTPUT", one folder per garment.
