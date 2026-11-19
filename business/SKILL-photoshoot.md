@@ -136,7 +136,7 @@ When the PHOTOSHOOT tab has rows, read this section before the workflow.
 **Camera**
 
 - Eye level — mid-distance
-- Low — the camera near the floor, looking up at her
+- Low — the phone held a hand's width above the floor, tilted up at her: the floor fills the bottom of the frame, the ceiling shows behind her head, and we look up at her chin
 - Close — close in
 
 **Pose**
@@ -454,3 +454,5 @@ v4 = v3 plus the reworded True profile and Very tight crop options, and no True 
 ### Full set on v4 (2026-11-19)
 
 All five garments on both Boards. The 50 new images (Run12–16) gave 47 Pass (94%), 3 Borderline (face drift), 0 Fail. Output is in Drive, folder "SHER PHOTOSHOOT SKILL - OUTPUT", one folder per garment.
+
+**Remakes (same day).** The 12 Borderlines across all sets were rerun with the same plan. Round 1: 12 images, 9 Pass (33 credits). Round 2: the last 3, all Pass (8.25 credits). Two of them were Casual Low shots where the camera stayed at eye level; the longer Low wording above fixed both, so it is now the Casual Low option. Every set is now 10/10 Pass, and the Drive files carry no `_Borderline` suffix.
