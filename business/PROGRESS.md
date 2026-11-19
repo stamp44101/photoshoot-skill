@@ -2,6 +2,19 @@
 
 Saved 2026-11-16 18:50 (Bangkok). Read this first when picking the work back up.
 
+## Update 2026-11-19 — v3 yield
+
+Rows: Run6 57–66, Run7 67–76, Run8 77–86 in PHOTOSHOOT. Next free row: 87.
+
+| Run | Garment × Character | Board | Pass | Borderline | Fail |
+|---|---|---|---|---|---|
+| Run6 | Beige Julia Mini × Kristy | Casual | 9 | 1 | 0 |
+| Run7 | Cocoa Quinn Midi × Claire | High-Fashion | 7 | 3 | 0 |
+| Run8 | White Julia Mini × Claire | High-Fashion | 6 | 4 | 0 |
+| v3 total | 30 images | 22 (73%) | 8 | 0 |
+
+Target 80% not reached. Main cause: True profile camera ignored 5 of 5. v4 rewords True profile and Very tight crop and bans profile + frontal symmetry. Next: 30 images on v4. Spent on v3: 82.5 credits.
+
 ## Where it stands
 
 - **Skill**: `business/SKILL-photoshoot.md`, v0.1. One pass on Higgs GPT Image 2.6 (Sunburst), high, 2k, 3:4, with seven References: character sheet, face close-up, five `_BG` garment shots.

@@ -162,10 +162,12 @@ When the PHOTOSHOOT tab has rows, read this section before the workflow.
 
 **Camera**
 
-- Very tight crop
+- Very tight crop — the frame cuts her at mid-thigh or higher; her head and the garment fill it
 - Full body small in a large field of negative space
 - Low angle looking up
-- True profile
+- True profile — the camera at her side, square to her: head, chest and feet all point to the edge of the frame, one eye showing
+
+True profile never goes with Rigid frontal symmetry; they cannot both happen.
 
 **Pose**
 
@@ -412,4 +414,21 @@ Prompt frozen as it stands after Run2. First try only, no remakes. Plan: 80 imag
 - **The Low camera** is the main borderline reason: it came out at eye level in 4 of 8 tries.
 - **A mini dress with Sitting or Low** is the only reason for a Fail. In Run4, 5 of the 6 rows that sat, knelt or were shot from low came back with the hem riding too high, and in 2 the camera looks up it. The Mix rule only kept short garments away from a low camera. It is not enough.
 
-Still to run: Beige Julia Mini Dress × Kristy on Casual, and all four garments on High-Fashion.
+### Yield study — v3 (2026-11-19)
+
+v3 = v2 plus the short-garment rule (Standing or Leaning only, Eye level or Close only on Casual; lean, mid-stride or symmetry and no Low angle on High-Fashion). Target: 80% first-try Pass over 30 images, both Boards.
+
+| Run | Garment × Character | Board | Pass | Borderline | Fail |
+|---|---|---|---|---|---|
+| Run6 | Beige Julia Mini Dress × Kristy | Casual | 9 | 1 | 0 |
+| Run7 | Cocoa Quinn Midi Dress × Claire | High-Fashion | 7 | 3 | 0 |
+| Run8 | White Julia Mini Dress × Claire | High-Fashion | 6 | 4 | 0 |
+| **v3 total** | | | **22 of 30 (73%)** | **8** | **0** |
+
+- No Fail, no block, nothing sideways. The garment held in all 30 and no mini hem rode up: the short-garment rule works.
+- 6 of the 8 Borderlines are the camera. **True profile came out in 0 of 5 tries** (3/4 or frontal instead). Very tight crop missed once in 4.
+- One of those was a planning error: True profile paired with Rigid frontal symmetry, which cannot both happen.
+- 2 Borderlines are face drift (Run6-004, Run7-005).
+- v4 changes only the camera option text (True profile, Very tight crop) and bans the profile + symmetry pair.
+
+Still to run: Peony Valen Maxi × Kristy and Beige Julia Mini × Kristy on High-Fashion.
