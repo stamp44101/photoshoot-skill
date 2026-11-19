@@ -431,4 +431,18 @@ v3 = v2 plus the short-garment rule (Standing or Leaning only, Eye level or Clos
 - 2 Borderlines are face drift (Run6-004, Run7-005).
 - v4 changes only the camera option text (True profile, Very tight crop) and bans the profile + symmetry pair.
 
-Still to run: Peony Valen Maxi × Kristy and Beige Julia Mini × Kristy on High-Fashion.
+### Yield study — v4 (2026-11-19) — target reached
+
+v4 = v3 plus the reworded True profile and Very tight crop options, and no True profile with Rigid frontal symmetry. Casual is unchanged from v3.
+
+| Run | Garment × Character | Board | Pass | Borderline | Fail |
+|---|---|---|---|---|---|
+| Run9 | Peony Valen Maxi Dress × Kristy | High-Fashion | 8 | 2 | 0 |
+| Run10 | Beige Julia Mini Dress × Kristy | High-Fashion | 9 | 1 | 0 |
+| Run11 | Cocoa Quinn Midi Dress × Claire | Casual | 8 | 2 | 0 |
+| **v4 total** | | | **25 of 30 (83%)** | **5** | **0** |
+
+- True profile now works 6 of 6, Very tight crop 6 of 6.
+- No Fail, no block, nothing sideways. The garment held in all 30.
+- What is left: face drift in 4 of 30 (the face comes out older or heavier, mostly in close or sunset shots), and the Casual Low camera missed once in 3.
+- Cost: 2.75 credits an image, so about 3.3 credits per first-try Pass.

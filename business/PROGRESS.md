@@ -15,6 +15,20 @@ Rows: Run6 57–66, Run7 67–76, Run8 77–86 in PHOTOSHOOT. Next free row: 87.
 
 Target 80% not reached. Main cause: True profile camera ignored 5 of 5. v4 rewords True profile and Very tight crop and bans profile + frontal symmetry. Next: 30 images on v4. Spent on v3: 82.5 credits.
 
+## Update 2026-11-19 — v4 yield: target reached
+
+Rows: Run9 87–96, Run10 97–106, Run11 107–116. Next free row: 117.
+
+| Run | Garment × Character | Board | Pass | Borderline | Fail |
+|---|---|---|---|---|---|
+| Run9 | Peony Valen Maxi × Kristy | High-Fashion | 8 | 2 | 0 |
+| Run10 | Beige Julia Mini × Kristy | High-Fashion | 9 | 1 | 0 |
+| Run11 | Cocoa Quinn Midi × Claire | Casual | 8 | 2 | 0 |
+| v4 total | 30 images | 25 (83%) | 5 | 0 |
+
+v4 is the version to use. Study spend today: 165 credits (v3 82.5 + v4 82.5). Credits left: 2,751.
+Open: face drift 4 of 30; Casual Low camera 1 miss in 3. Pink Clara upload still half done.
+
 ## Where it stands
 
 - **Skill**: `business/SKILL-photoshoot.md`, v0.1. One pass on Higgs GPT Image 2.6 (Sunburst), high, 2k, 3:4, with seven References: character sheet, face close-up, five `_BG` garment shots.
