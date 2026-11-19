@@ -1,6 +1,6 @@
 # Photoshoot SKILL — checkpoint
 
-Saved 2026-11-16 18:50 (Bangkok). Read this first when picking the work back up.
+Saved 2026-11-16 18:50, updated 2026-11-19 (Bangkok). Read this first when picking the work back up.
 
 ## Update 2026-11-19 — v3 yield
 
@@ -35,7 +35,7 @@ Open: face drift 4 of 30; Casual Low camera 1 miss in 3. Pink Clara upload still
 - **Sheet**: prompt sheet `1Nm6SlnYxADAhz7KFNeiTh60WWHM9AfkSx_5iu417UYk`, tab `PHOTOSHOOT`. Rows 3–6 Test, 7–16 Run1, 17–26 Run2, 27–36 Run3, 37–46 Run4. Next free row: 47. Prompt template v2 is in cell N1; the Prompt column is a formula on it.
 - **Credits**: 2,971 left. Spent so far on this skill: about 161.
 
-## Yield study (in progress)
+## Yield study v2 (superseded by v3/v4 above)
 
 Prompt frozen after Run2. First try only, no remakes. Board Casual so far.
 
@@ -51,23 +51,11 @@ Open findings:
 1. **Mini dress with Sitting or Low** is the only cause of a Fail (Run4-006, Run4-009), and of three Borderlines.
 2. **The Low camera** comes out at eye level about half the time (4 of 8).
 
-## Waiting on Stamp
+## Next
 
-**A or B for the mini-dress rule**, before any more batches run:
-
-- A (recommended): short garments get only Standing and Leaning, and never the Low camera. Then run the rest.
-- B: keep the rule as it is, so all 80 images compare, and accept the known fails.
-
-## Still to run
-
-Plan was 80 images, 8 batches. 30 done. Left, at 27.5 credits a batch:
-
-- Casual: Beige Julia Mini Dress × Kristy
-- High-Fashion: Cocoa Quinn Midi × Claire, White Julia Mini × Claire, Beige Julia Mini × Kristy, and Peony Valen Maxi × Kristy or Pink Clara Set × Kristy
-
-Then: remake each Fail once, report first-try yield, yield after one remake, credits per usable image, and which check fails most.
-
-High-Fashion has not been run with the seven References yet.
+- The study is done; v4 is the version to use.
+- Optional: try a stronger Casual Low-camera line and a face-hold line for close and sunset shots (the 4 face drifts).
+- Pink Clara Set × Kristy: finish the upload below, then it can run.
 
 ## Pink Clara Set × Kristy — upload half done
 
