@@ -29,6 +29,22 @@ Rows: Run9 87–96, Run10 97–106, Run11 107–116. Next free row: 117.
 v4 is the version to use. Study spend today: 165 credits (v3 82.5 + v4 82.5). Credits left: 2,751.
 Open: face drift 4 of 30; Casual Low camera 1 miss in 3. Pink Clara upload still half done.
 
+## Update 2026-11-19 — full set on v4
+
+Every garment now has both boards on v4 (or its Casual equivalent). Rows: Run12–16 117–166. Next free row: 167.
+
+| Garment × Character | Casual | High-Fashion |
+|---|---|---|
+| Peony Valen Maxi × Kristy | Run2 7/10 (Casual = v4 for a maxi) | Run9 8/10 |
+| Cocoa Quinn Midi × Claire | Run11 8/10 | Run12 10/10 |
+| White Julia Mini × Claire | Run14 10/10 | Run13 9/10 |
+| Beige Julia Mini × Kristy | Run6 9/10 | Run10 9/10 |
+| Pink Clara Set × Kristy | Run15 9/10 | Run16 9/10 |
+
+New today on v4: 50 images, 47 Pass (94%), 3 Borderline (all face drift), 0 Fail. 137.5 credits. Credits left: 2,613.
+Pink Clara Higgs ids: FF 8c5aaeba-888c-4ef4-be91-a750d6e2310e, F34 75fa258f-b2a2-4649-91b6-4ed5a1493996, Side bb509ce9-1a28-47b0-8815-af46e128078d, Back 16f188c0-13cb-4979-abe6-ae1ce2e4691a, CU c68ec8b5-f1f7-49fc-86ae-995267cdaaac.
+Optional: remake the 12 Borderlines across all sets once (33 credits) so every set has 10 Pass.
+
 ## Where it stands
 
 - **Skill**: `business/SKILL-photoshoot.md`, v0.1. One pass on Higgs GPT Image 2.6 (Sunburst), high, 2k, 3:4, with seven References: character sheet, face close-up, five `_BG` garment shots.
@@ -55,9 +71,8 @@ Open findings:
 
 - The study is done; v4 is the version to use.
 - Optional: try a stronger Casual Low-camera line and a face-hold line for close and sunset shots (the 4 face drifts).
-- Pink Clara Set × Kristy: finish the upload below, then it can run.
 
-## Pink Clara Set × Kristy — upload half done
+## Pink Clara Set × Kristy — uploaded (done 2026-11-19)
 
 The five `_BG` files are in Drive (folder `Pink-Clara-Set`, id `1_Q1ObW59eQ3e-hA_LJk931NDXDtCyjp1`) and not in recent Higgs history. Getting them into Higgs works through Claude in Chrome: open any drive.google.com page, then in page JavaScript fetch `https://lh3.googleusercontent.com/d/<fileId>=s0` with credentials and PUT the blob to a Higgs upload URL (headers `Content-Type: image/png`, `If-None-Match: *`), then `media_confirm`.
 
