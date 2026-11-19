@@ -43,6 +43,7 @@ Every garment now has both boards on v4 (or its Casual equivalent). Rows: Run12â
 
 New today on v4: 50 images, 47 Pass (94%), 3 Borderline (all face drift), 0 Fail. 137.5 credits. Credits left: 2,613.
 Pink Clara Higgs ids: FF 8c5aaeba-888c-4ef4-be91-a750d6e2310e, F34 75fa258f-b2a2-4649-91b6-4ed5a1493996, Side bb509ce9-1a28-47b0-8815-af46e128078d, Back 16f188c0-13cb-4979-abe6-ae1ce2e4691a, CU c68ec8b5-f1f7-49fc-86ae-995267cdaaac.
+Drive output: "SHER PHOTOSHOOT SKILL - OUTPUT" (id 1Qe3QefkpATCW7u6vwClzv2hTQE0dY88X), one folder per garment, 20 PNGs each, named <Garment>_<Character>_<Board>_<NN>[_Borderline].png. Uploaded through Claude in Chrome (fetch from the Higgs CDN, then a synthetic drop onto the Drive folder), because the Drive connector caps a call at about 3 MB.
 Optional: remake the 12 Borderlines across all sets once (33 credits) so every set has 10 Pass.
 
 ## Where it stands
