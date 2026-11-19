@@ -332,6 +332,10 @@ The garment stays fully legible in whatever shape you choose.
 - **Camera and Pose are Variables.** Claude picks one option per image, so each is used about as often as the others. Three lines that let the model choose are gone: "Eye-level and mid-distance, or low looking up, or close in.", "Vary the level and the turn: standing, leaning, sitting, low.", and the High-Fashion "Choose one —" and "Choose freely —" lists. Their options are in Project Inputs.
 - **"a little tilted" is gone**, and "An upright vertical frame." is in.
 - **Size is 3:4**, not auto, so every image in a run has the same shape.
+- **Model is GPT Image 2.6, not Nano Banana Pro.** Run5 tested the Weave setup (Nano Banana Pro, front/side/back only, no face references): 5 of 10 came back, faces drifted and Close/Low camera was ignored. GPT 2.6 with seven references held the garment and face far better.
+- **Short garments have their own rule.** Mini dresses and sets get Standing or Leaning only, and Eye level or Close camera on Casual. On High-Fashion they get lean, mid-stride or symmetry, never Low angle. Sitting and low shots rode the hem up (Run4).
+- **Two High-Fashion Camera options are spelled out.** "True profile" and "Very tight crop" say what the frame must show; as bare words the model ignored True profile 5 of 5. True profile is never paired with Rigid frontal symmetry.
+- **The Don'ts gained "No logos or brand marks on props."** Run1 put a brand logo on a bag.
 
 ## Learnings
 
